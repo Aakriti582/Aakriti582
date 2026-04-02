@@ -1,0 +1,51 @@
+// Create a system that processes student data, calculates grades, filters results, and generates reports. It should handle real-world logic like grade calculations, filtering by criteria, and data transformations.
+
+// What to Build:
+// An array of student objects, where each student has: name, marks (array of subject scores), attendance percentage
+
+// Functions that:
+// Calculate average marks and assign grades (A/B/C/D based on ranges)
+// Filter students by criteria (e.g., "show only students with > 75 average")
+// Find top performer and lowest scorer
+// Check eligibility (average > 40 AND attendance > 75%)
+// Loops to iterate through data and transform it
+// Conditionals to apply grading rules (use switch for grade assignment or if/else for eligibility)
+// Generate a summary report showing: total students, pass count, fail count, average class score
+
+// How to Approach It:
+// Start with data structure — Create realistic student objects with nested arrays (marks per subject)
+// Build utility functions — Each function should do ONE thing (calculate average, assign grade, filter students)
+// Use loops strategically — .map() mindset (though not required): transform data from one form to another
+// Apply game logic — Use conditionals creatively (e.g., bonus points if attendance > 90%)
+// Combine everything — Chain functions and loops to build the final report
+// Challenge Twist (Optional):
+// Add a pass/fail rule: If marks < 40, fail regardless of attendance
+// Add a merit scholarship checker: Show students eligible for scholarship (average > 80 AND attendance 100)
+// Export data to a formatted string report using template literals
+// This project forces them to design with objects, organize logic with functions, and process data with loops — all core pillars.
+
+
+
+let students= [{
+    name:"Aakriti",
+    marks:[20,20,40,60],
+    attendance:60
+}
+]
+console.log(students)
+console.log(students.marks.length)
+
+// //Function to calculate average
+// function calAvg(){
+//     console.log(students[0].marks) 
+//     for(let i=0; i<students.length;i++)
+//     {
+//         console.log(students[0].marks)
+//         let avgmarks=0;
+//         for(let i=0; i<students.marks.length;i++){
+//             avg
+//         }
+//     }
+   
+// }
+// calAvg()
